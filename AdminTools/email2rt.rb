@@ -1,7 +1,10 @@
 #!/bin/ruby
 
-#This scripts is used to move emails which were sent to my inbox into our ticketing system.
-#It runs in a cron tab every 15 minutes, fetches these "ticket" emails from a custom folder in my zimbra email, and then creates a ticket for the client and sends a polite reply that we've sent their message to our ticketing system.
+#This script is useful for those pesky users who try to bypass the ticketing system by email you directly.
+#Simply move these emails, which should be tickets, into a special folder in your inbox and
+#Set it to run in your crontab every 15 minutes to automagically move these to your ticketing system, and "send" a polite email to the client with no effort.
+#Long live laziness!
+
 # Uses Ruby's built in imap and smtp modules.
 # Fill in username password and IMAP/SMTP address
 
