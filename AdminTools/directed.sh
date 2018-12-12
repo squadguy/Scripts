@@ -2,6 +2,7 @@
 
 #Useage: directed [from] [to]
 #This scripts takes a from URI and a to URI and determines if the first redirects to the second by using curl and getting the http header reponse value.
+# Useful for checking if URL redirects on apache or nginx servers were entered correctly without having to use a browser
 
 #This can probably be removed since we'v migrated to nginx
 #checks if nursing eval application is up.
